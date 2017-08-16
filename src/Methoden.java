@@ -15,7 +15,7 @@ public class Methoden {
 		double quadsum = 0.0;
 		
 		while(it.hasNext()) {
-			quadsum += Math.pow(doubleValue(it), 2);
+			quadsum += Math.pow(doubleValue(it.next()), 2);
 		}
 		
 		
